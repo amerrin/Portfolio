@@ -1,0 +1,29 @@
+#Program Information
+	@author: Anthony Merrin
+	@aludra: merrin
+	@studentID: 2249804934
+
+#ReadMe
+
+GUI Addititions:
+	1. I have added a checkbox "Reorder?" for customers. This checkbox will force the customer to reorder. It is only available while the customer has the option of reordering (AKA his order is not finished).
+	2. I had added a button for stock control labelled "change supply". To change the supply of any type of food, simply click this button, type in a food choice (from menu), and enter the value you wish that type to be set to.
+			EX: To change chicken to 0 stock, and force the cook to order from market, you push "change supply", enter "chicken", and enter "0".  Then, the chicken supply will be set to 0, and the cook orders.
+
+Thread Safe Agents:
+	All lists are synchronized collections.  All list searches are within synchronized blocks.  This program is completely thread safe.
+	
+Multi-Step Actions:
+	The waiter/customer order interaction is now 1 action implemented in both the waiter and customer.  I chose to link the previously existing actions into 1 long action by using semaphore.tryAcquire() calls to subsequent functions.
+
+Shared Data
+	1.There is now a special type of waiter called SDWaiter (Shared Data Waiter). To instantiate the NEW type of waiter (SDWaiter), just make sure that when you create a waiter, the name has "sd" in it somewhere, and this new waiter will be a SDWaiter.
+			EX: To create a new shared data waiter, click "add waiter", and type a name include "sd" such as "sdw1" or "sdwaiter1", then your new waiter will use the producer/consumer style of passing orders.
+	2.There is a shared piece of data called the "turntable" which is shared between the cook and shared data waiters. Waiters put orders into the reel, and the cook wakes up every 5 seconds to automatically remove from the turntable. Also, if the cook has yet to take the order, the customer may reorder and the waiter will retrieve the existing ticket from the turntable.
+	3.The turntable is an implementation of the producer/consumer style wheel. I implemented the ProducerConsumerMonitor using data type <Order> which allows the waiter and cook to share orders without explicit message calls.
+	
+Unit Testing Cashier
+	1. Cashiers interaction with customer (making change) is fully tested for pre and post conditions
+	2. Cashiers interaction with customer who has not enough money is fully tested for pre and post conditions (hosts blacklist included)
+	3. Cashiers interaction with market (paying market) is tested fully for pre and post conditions
+	
