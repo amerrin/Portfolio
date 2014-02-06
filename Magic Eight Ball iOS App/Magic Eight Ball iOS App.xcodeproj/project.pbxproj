@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446D6E141814B4A2003114E7 /* ANTInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D6E131814B4A2003114E7 /* ANTInputViewController.m */; };
+		44CE8A9C1814DDDC0018EE9C /* ANTEightBallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CE8A9B1814DDDC0018EE9C /* ANTEightBallModel.m */; };
+		44CE8A9F1814DDF20018EE9C /* ANTAnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CE8A9E1814DDF20018EE9C /* ANTAnswersViewController.m */; };
+		44CE8AA21814DEF00018EE9C /* tab_answers.png in Resources */ = {isa = PBXBuildFile; fileRef = 44CE8AA01814DEF00018EE9C /* tab_answers.png */; };
+		44CE8AA31814DEF00018EE9C /* tab_eightball.png in Resources */ = {isa = PBXBuildFile; fileRef = 44CE8AA11814DEF00018EE9C /* tab_eightball.png */; };
+		56DC0D0C17EA3887003C666C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC0D0B17EA3887003C666C /* UIKit.framework */; };
+		56DC0D0E17EA3887003C666C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC0D0D17EA3887003C666C /* Foundation.framework */; };
+		56DC0D1017EA3887003C666C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC0D0F17EA3887003C666C /* CoreGraphics.framework */; };
+		56DC0D1617EA3887003C666C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56DC0D1417EA3887003C666C /* InfoPlist.strings */; };
+		56DC0D1817EA3887003C666C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC0D1717EA3887003C666C /* main.m */; };
+		56DC0D1C17EA3887003C666C /* ANTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC0D1B17EA3887003C666C /* ANTAppDelegate.m */; };
+		56DC0D1E17EA3887003C666C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DC0D1D17EA3887003C666C /* Default.png */; };
+		56DC0D2017EA3887003C666C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DC0D1F17EA3887003C666C /* Default@2x.png */; };
+		56DC0D2217EA3887003C666C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DC0D2117EA3887003C666C /* Default-568h@2x.png */; };
+		56DC0D2517EA3887003C666C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DC0D2317EA3887003C666C /* MainStoryboard.storyboard */; };
+		56DC0D2817EA3887003C666C /* ANTEightBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC0D2717EA3887003C666C /* ANTEightBallViewController.m */; };
+		56DC0D3917EA38D7003C666C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DC0D3617EA38D6003C666C /* Icon.png */; };
+		56DC0D3A17EA38D7003C666C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DC0D3717EA38D7003C666C /* Icon@2x.png */; };
+		56DC0D3B17EA38D7003C666C /* magic8ballbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 56DC0D3817EA38D7003C666C /* magic8ballbg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		446D6E121814B4A2003114E7 /* ANTInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTInputViewController.h; sourceTree = "<group>"; };
+		446D6E131814B4A2003114E7 /* ANTInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTInputViewController.m; sourceTree = "<group>"; };
+		44CE8A9A1814DDDC0018EE9C /* ANTEightBallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ANTEightBallModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		44CE8A9B1814DDDC0018EE9C /* ANTEightBallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ANTEightBallModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		44CE8A9D1814DDF20018EE9C /* ANTAnswersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTAnswersViewController.h; sourceTree = "<group>"; };
+		44CE8A9E1814DDF20018EE9C /* ANTAnswersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTAnswersViewController.m; sourceTree = "<group>"; };
+		44CE8AA01814DEF00018EE9C /* tab_answers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_answers.png; sourceTree = "<group>"; };
+		44CE8AA11814DEF00018EE9C /* tab_eightball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_eightball.png; sourceTree = "<group>"; };
+		56DC0D0817EA3887003C666C /* Magic Eight Ball iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Eight Ball iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DC0D0B17EA3887003C666C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56DC0D0D17EA3887003C666C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56DC0D0F17EA3887003C666C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56DC0D1317EA3887003C666C /* Magic Eight Ball iOS App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magic Eight Ball iOS App-Info.plist"; sourceTree = "<group>"; };
+		56DC0D1517EA3887003C666C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56DC0D1717EA3887003C666C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		56DC0D1917EA3887003C666C /* Magic Eight Ball iOS App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Magic Eight Ball iOS App-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		56DC0D1A17EA3887003C666C /* ANTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ANTAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		56DC0D1B17EA3887003C666C /* ANTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ANTAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		56DC0D1D17EA3887003C666C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		56DC0D1F17EA3887003C666C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		56DC0D2117EA3887003C666C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		56DC0D2417EA3887003C666C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		56DC0D2617EA3887003C666C /* ANTEightBallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ANTEightBallViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		56DC0D2717EA3887003C666C /* ANTEightBallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ANTEightBallViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		56DC0D3617EA38D6003C666C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		56DC0D3717EA38D7003C666C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		56DC0D3817EA38D7003C666C /* magic8ballbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic8ballbg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56DC0D0517EA3887003C666C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC0D0C17EA3887003C666C /* UIKit.framework in Frameworks */,
+				56DC0D0E17EA3887003C666C /* Foundation.framework in Frameworks */,
+				56DC0D1017EA3887003C666C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56DC0CFF17EA3886003C666C = {
+			isa = PBXGroup;
+			children = (
+				56DC0D1117EA3887003C666C /* Magic Eight Ball iOS App */,
+				56DC0D0A17EA3887003C666C /* Frameworks */,
+				56DC0D0917EA3887003C666C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56DC0D0917EA3887003C666C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56DC0D0817EA3887003C666C /* Magic Eight Ball iOS App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56DC0D0A17EA3887003C666C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56DC0D0B17EA3887003C666C /* UIKit.framework */,
+				56DC0D0D17EA3887003C666C /* Foundation.framework */,
+				56DC0D0F17EA3887003C666C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56DC0D1117EA3887003C666C /* Magic Eight Ball iOS App */ = {
+			isa = PBXGroup;
+			children = (
+				44CE8A9D1814DDF20018EE9C /* ANTAnswersViewController.h */,
+				44CE8A9E1814DDF20018EE9C /* ANTAnswersViewController.m */,
+				44CE8A9A1814DDDC0018EE9C /* ANTEightBallModel.h */,
+				44CE8A9B1814DDDC0018EE9C /* ANTEightBallModel.m */,
+				446D6E121814B4A2003114E7 /* ANTInputViewController.h */,
+				446D6E131814B4A2003114E7 /* ANTInputViewController.m */,
+				56DC0D1A17EA3887003C666C /* ANTAppDelegate.h */,
+				56DC0D1B17EA3887003C666C /* ANTAppDelegate.m */,
+				56DC0D2317EA3887003C666C /* MainStoryboard.storyboard */,
+				56DC0D2617EA3887003C666C /* ANTEightBallViewController.h */,
+				56DC0D2717EA3887003C666C /* ANTEightBallViewController.m */,
+				56DC0D3517EA38CC003C666C /* Resources */,
+				56DC0D1217EA3887003C666C /* Supporting Files */,
+			);
+			name = "Magic Eight Ball iOS App";
+			path = Merrin_Anthony_Lab5_EightBall;
+			sourceTree = "<group>";
+		};
+		56DC0D1217EA3887003C666C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DC0D1317EA3887003C666C /* Magic Eight Ball iOS App-Info.plist */,
+				56DC0D1417EA3887003C666C /* InfoPlist.strings */,
+				56DC0D1717EA3887003C666C /* main.m */,
+				56DC0D1917EA3887003C666C /* Magic Eight Ball iOS App-Prefix.pch */,
+				56DC0D1D17EA3887003C666C /* Default.png */,
+				56DC0D1F17EA3887003C666C /* Default@2x.png */,
+				56DC0D2117EA3887003C666C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56DC0D3517EA38CC003C666C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44CE8AA01814DEF00018EE9C /* tab_answers.png */,
+				44CE8AA11814DEF00018EE9C /* tab_eightball.png */,
+				56DC0D3617EA38D6003C666C /* Icon.png */,
+				56DC0D3717EA38D7003C666C /* Icon@2x.png */,
+				56DC0D3817EA38D7003C666C /* magic8ballbg.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56DC0D0717EA3887003C666C /* Magic Eight Ball iOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DC0D2B17EA3887003C666C /* Build configuration list for PBXNativeTarget "Magic Eight Ball iOS App" */;
+			buildPhases = (
+				56DC0D0417EA3887003C666C /* Sources */,
+				56DC0D0517EA3887003C666C /* Frameworks */,
+				56DC0D0617EA3887003C666C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic Eight Ball iOS App";
+			productName = Merrin_Anthony_Lab4_EightBall;
+			productReference = 56DC0D0817EA3887003C666C /* Magic Eight Ball iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56DC0D0017EA3886003C666C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ANT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ITP;
+			};
+			buildConfigurationList = 56DC0D0317EA3886003C666C /* Build configuration list for PBXProject "Magic Eight Ball iOS App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56DC0CFF17EA3886003C666C;
+			productRefGroup = 56DC0D0917EA3887003C666C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DC0D0717EA3887003C666C /* Magic Eight Ball iOS App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56DC0D0617EA3887003C666C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC0D1617EA3887003C666C /* InfoPlist.strings in Resources */,
+				44CE8AA21814DEF00018EE9C /* tab_answers.png in Resources */,
+				56DC0D1E17EA3887003C666C /* Default.png in Resources */,
+				56DC0D2017EA3887003C666C /* Default@2x.png in Resources */,
+				44CE8AA31814DEF00018EE9C /* tab_eightball.png in Resources */,
+				56DC0D2217EA3887003C666C /* Default-568h@2x.png in Resources */,
+				56DC0D2517EA3887003C666C /* MainStoryboard.storyboard in Resources */,
+				56DC0D3917EA38D7003C666C /* Icon.png in Resources */,
+				56DC0D3A17EA38D7003C666C /* Icon@2x.png in Resources */,
+				56DC0D3B17EA38D7003C666C /* magic8ballbg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56DC0D0417EA3887003C666C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DC0D1817EA3887003C666C /* main.m in Sources */,
+				56DC0D1C17EA3887003C666C /* ANTAppDelegate.m in Sources */,
+				44CE8A9F1814DDF20018EE9C /* ANTAnswersViewController.m in Sources */,
+				56DC0D2817EA3887003C666C /* ANTEightBallViewController.m in Sources */,
+				44CE8A9C1814DDDC0018EE9C /* ANTEightBallModel.m in Sources */,
+				446D6E141814B4A2003114E7 /* ANTInputViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56DC0D1417EA3887003C666C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DC0D1517EA3887003C666C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56DC0D2317EA3887003C666C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DC0D2417EA3887003C666C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56DC0D2917EA3887003C666C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56DC0D2A17EA3887003C666C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56DC0D2C17EA3887003C666C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Merrin_Anthony_Lab5_EightBall/Magic Eight Ball iOS App-Prefix.pch";
+				INFOPLIST_FILE = "Merrin_Anthony_Lab5_EightBall/Magic Eight Ball iOS App-Info.plist";
+				PRODUCT_NAME = "Magic Eight Ball iOS App";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56DC0D2D17EA3887003C666C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Merrin_Anthony_Lab5_EightBall/Magic Eight Ball iOS App-Prefix.pch";
+				INFOPLIST_FILE = "Merrin_Anthony_Lab5_EightBall/Magic Eight Ball iOS App-Info.plist";
+				PRODUCT_NAME = "Magic Eight Ball iOS App";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DC0D0317EA3886003C666C /* Build configuration list for PBXProject "Magic Eight Ball iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DC0D2917EA3887003C666C /* Debug */,
+				56DC0D2A17EA3887003C666C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DC0D2B17EA3887003C666C /* Build configuration list for PBXNativeTarget "Magic Eight Ball iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DC0D2C17EA3887003C666C /* Debug */,
+				56DC0D2D17EA3887003C666C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56DC0D0017EA3886003C666C /* Project object */;
+}
